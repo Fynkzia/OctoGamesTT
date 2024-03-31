@@ -21,8 +21,12 @@ MonoBehaviour:
   _refillAtFoundPercentage: 100
   _cardAnimationSpeed: 1
   _cardBacks:
-  - {fileID: 21300000, guid: fc2b7361bfe1c2a4ca7ce3744a69fc46, type: 3}
-  - {fileID: 21300000, guid: fc2b7361bfe1c2a4ca7ce3744a69fc46, type: 3}
+  - {fileID: 21300000, guid: 04fd11439b59e451ba279c08255ead22, type: 3}
+  - {fileID: 21300000, guid: 04fd11439b59e451ba279c08255ead22, type: 3}
+  - {fileID: 21300000, guid: 04fd11439b59e451ba279c08255ead22, type: 3}
+  - {fileID: 21300000, guid: 04fd11439b59e451ba279c08255ead22, type: 3}
   _cardSprites:
-  - {fileID: 21300000, guid: 14723b73385254e4ab587cf4ab3cc248, type: 3}
-  - {fileID: 21300000, guid: 27d5bd8647203e14aa3f3d7d5bb7b650, type: 3}
+  - {fileID: 21300000, guid: 741ceaa25fc3c427194ddfacdb38437e, type: 3}
+  - {fileID: 21300000, guid: b644b9ea65bfc440eb402879412eb797, type: 3}
+  - {fileID: 21300000, guid: dfc548c7c37794c778ca4f9f0bc64f94, type: 3}
+  - {fileID: 21300000, guid: fd79678b478aa43748c03fccf5ad5351, type: 3}
