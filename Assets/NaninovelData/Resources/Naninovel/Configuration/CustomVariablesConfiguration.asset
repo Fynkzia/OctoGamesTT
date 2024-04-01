@@ -23,3 +23,7 @@ MonoBehaviour:
     value: -1
   - name: miniGame
     value: false
+  - name: relationScarlett
+    value: 0
+  - name: relationJane
+    value: 0

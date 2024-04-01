@@ -201,6 +201,15 @@ MonoBehaviour:
     - name: Title
       pathPrefix: Backgrounds/MainBackground
       guid: 766a594eedaec8846a30a18e532ce193
+    - name: Street
+      pathPrefix: Backgrounds/MainBackground
+      guid: 7c19325c05ee880438ffbe729fb84965
+    - name: Garden
+      pathPrefix: Backgrounds/MainBackground
+      guid: 030e8433cd7e5bd4a9c964cc38107250
+    - name: Club
+      pathPrefix: Backgrounds/MainBackground
+      guid: 524e4bdfa0b7f2647b4def76c99e3b62
   - Id: Characters/834d8ca3-0f28-4c93-9351-28e272967158
     Resources:
     - name: Default
