@@ -21,15 +21,15 @@ public class QuestLogController : MonoBehaviour {
         if (!args.Name.EqualsFastIgnoreCase(CustomVariableName)) return;
         if (!string.IsNullOrEmpty(args.Value) && ParseUtils.TryInvariantInt(args.Value, out var intValue)) {
             if (intValue < 0) return;
-            if (intValue == questPanelTransform.childCount) {
-                questPanelTransform.GetChild(0).GetChild(0).gameObject.SetActive(true);
-                return;
-            }
             if (intValue == 1) {
                 questPanelTransform.GetChild(0).gameObject.SetActive(true);
             }
             if (intValue > 1) {
                 questPanelTransform.GetChild(intValue - 1).GetChild(0).gameObject.SetActive(true);
+            }
+            if (intValue == questPanelTransform.childCount) {
+                questPanelTransform.GetChild(0).GetChild(0).gameObject.SetActive(true);
+                return;
             }
             questPanelTransform.GetChild(intValue).gameObject.SetActive(true);
         }
