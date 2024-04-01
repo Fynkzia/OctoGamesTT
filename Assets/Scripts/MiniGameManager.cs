@@ -18,7 +18,9 @@ public class MiniGameManager : MonoBehaviour
     }
 
     private void OnGameFinished(MemoryGameResults results) {
-        var switchCommand = new SwitchToNovelMode { ScriptName = novelScriptName, Label = "EndMiniGame" };
+        var switchCommand = new SwitchToNovelMode { ScriptName = novelScriptName};
+        ICustomVariableManager variableManager = Engine.GetService<ICustomVariableManager>();
+        variableManager.SetVariableValue("miniGame", "true");
         switchCommand.ExecuteAsync().Forget();
     }
 }

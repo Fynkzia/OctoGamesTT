@@ -1,0 +1,65 @@
+@back Title
+@if questNumber=-1
+    @input PlayerName summary:"Choose your name."
+    @set questNumber=0
+    @stop
+@endif
+@if questNumber=0
+    @char Player pos:20,30
+    @char Scarlett pos:70,30
+    Scarlett: Hello! You're {PlayerName}, right?
+    Player: Hi. Um, yes..
+    @choice "And who are you?"
+    @choice "How do you know me?"
+    @choice "Are you a fan or something?"
+    @stop
+    Scarlett: I'm Scarlett. You know, I'm looking for something quite important, and I think you, being a well-connected person, could help me.
+    Scarlett: Don't think you'll get anything in return. I just decided that you might be useful to me.
+    Scarlett: So, can you help me or not?
+    Player: Alright. And what are you looking for?
+    Scarlett: Neurosync. I think Jane knows where to get it, but I can't stand her.
+    Scarlett: Look for her somewhere in Kiyomi Garden. She'll be happy to talk to you.
+    Player: Got it, I'll head there.
+    @set gardenAvailable=true;questNumber=1
+    @stop
+@endif
+@if questNumber=1
+    @char Scarlett pos:70,30
+    Scarlett: You can find Jane in Kiyomi Garden
+@endif
+@if questNumber=4
+    @char Player pos:20,30
+    @char Scarlett pos:50,30
+    @char Jane pos:70,30
+    Scarlett: You're just in time. One more minute and you would've witnessed a brutal murder.
+    Jane: Of course, my knight is always on time to save his princess from such a witch like you.
+    Scarlett: You're more like an annoying buzzing fly, always getting in the way.
+    Scarlett: Hey, {PlayerName}, did you manage to get the Neurosync?
+    Player: Yes, but it almost cost me my life.
+    Scarlett: Pfft, are you putting on airs just to earn a reward?
+    Scarlett: Well, give it to me and I'll think about it.
+    Jane: Hey, I'm still here. And I'm the one who said where to find it, and he said he'll bring me some too.
+    Jane: You grabbed two capsules, right?
+    Player: No, just one, barely managed to.
+    Jane: Hmm, well, I think you shouldn't have any doubts about who to give it to.
+    @choice "Give it to Scarlett" goto:.GiveScarlett
+    @choice "Give it to Jane" goto:.GiveJane
+    @choice "Keep it for yourself" goto:.KeepForYourself
+    @stop
+
+    # GiveScarlett
+    Scarlett: Thank you. I promise you won't regret your choice.
+    Jane: I thought you treated me better.
+
+    # GiveJane
+    Jane: Thank you. I promise you won't regret your choice.
+    Scarlett: I guess I was wrong about you. You're absolutely foolish.
+
+    # KeepForYourself
+    Scarlett: I guess I was wrong about you. You're absolutely foolish.
+    Jane: I thought you treated me better.
+
+    @set questNumber=5
+    @stop
+@endif
+@stop

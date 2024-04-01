@@ -1,0 +1,12 @@
+@back Title
+@if questNumber=2
+    @char Player pos:20,30
+    Player: Well, I'm lucky. The machine is still there and it even works.
+    *sound of the machine* br-br-br
+    Player: Great, I think I should take a couple more, so there's enough for everyone.
+    Security: Hey, who are you? This is a restricted area, only for members of the Hanami community.
+    Security: Get out if you value your life or should I show you the way?
+    Player: Damn, I need to get out of here.
+    @set hayashiAvailable=false;gardenAvailable=true;questNumber=3
+@endif
+@stop

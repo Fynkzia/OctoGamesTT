@@ -13,5 +13,13 @@ MonoBehaviour:
   m_Name: CustomVariablesConfiguration
   m_EditorClassIdentifier: 
   PredefinedVariables:
-  - name: PlayerName
-    value: 
+  - name: streetAvailable
+    value: true
+  - name: gardenAvailable
+    value: false
+  - name: hayashiAvailable
+    value: false
+  - name: questNumber
+    value: -1
+  - name: miniGame
+    value: false

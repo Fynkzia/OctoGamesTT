@@ -17,7 +17,7 @@ MonoBehaviour:
     Resources:
     - name: Dialogue
       pathPrefix: TextPrinters
-      guid: 1bc08ccd31adff6439e97161aa6e1d8b
+      guid: 34ed78f666141024b95837a37290ddb5
   - Id: TextPrinters/0d74fe0a-3826-435a-bb89-7d8f846fbc11
     Resources:
     - name: Fullscreen
@@ -166,17 +166,29 @@ MonoBehaviour:
     - name: ToastUI
       pathPrefix: UI
       guid: dd85ce99288c2f8488447fa511b1c0d6
+    - name: MapUI
+      pathPrefix: UI
+      guid: c2e3135d4ba611c4e90951753e0c05b9
+    - name: QuestLog
+      pathPrefix: UI
+      guid: 061910323b440224bbb2daf88165d753
   - Id: Scripts
     Resources:
-    - name: NewScript
-      pathPrefix: Scripts
-      guid: 2728a121fc80415409a6f3947917f285
     - name: Title
       pathPrefix: Scripts
       guid: f409a52ba5e0df74e85df86b427b1b8a
-    - name: AfterGame
+    - name: Street
       pathPrefix: Scripts
-      guid: ef0f63a46ff79c94790d197ea24079db
+      guid: f9f05a793c847b94c96876269712d619
+    - name: Garden
+      pathPrefix: Scripts
+      guid: e7bf1b21bb2ca604380552e04f5173e7
+    - name: Hayashi
+      pathPrefix: Scripts
+      guid: 27bd0f60f91451b43b992c6ee7f7ba37
+    - name: Map
+      pathPrefix: Scripts
+      guid: a0f057279d5e00d4f8e27ada2aab0efb
   - Id: Characters/5302ad47-d9d7-45fc-8301-45b8979e1db9
     Resources:
     - name: Default

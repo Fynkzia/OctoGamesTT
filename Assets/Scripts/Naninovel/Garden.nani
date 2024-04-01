@@ -1,0 +1,41 @@
+@back Title
+@if questNumber=1
+    @if miniGame=false
+        @char Player pos:20,30
+        @char Jane pos:70,30
+        Player: Good evening. My name is {PlayerName}. You're Jane, right?
+        Player: I'm looking for Neurosync. I was told you might have useful information.
+        Jane: Oh, hi there. Well, it's hard to refuse such a cutie. Just that I need it too. 
+        Jane: You know, it's pretty lonely here by myself. Maybe you'll play with me, and then I'll tell you everything?
+        Player: Looks like I don't have a choice
+        @set miniGame=true
+        @save
+        @miniGame reset:false
+    @else
+        @char Player pos:20,30
+        @char Jane pos:70,30
+        Jane: Wow, you're so clever. All girls like such men.
+        Player: Yeah, thanks.
+        Jane: Hehe, it's thanks to you for spending time with me.
+        Jane: Right, I almost forgot. You want to find Neurosync, right?
+        Jane: There used to be a machine with it at the Hayashi Club, maybe it's still there. Will you bring it to me then?
+        Player: Okay, I'll go then.
+        @set hayashiAvailable=true;streetAvailable=false;questNumber=2
+        @stop
+    @endif
+@endif
+@if questNumber=2
+    @char Jane pos:70,30
+    Jane: You should go to Hayashi club, sweety
+@endif
+@if questNumber=3
+    @char Player pos:20,30
+    Player: Phew, just made it. A little more and I could have woken up only in the hospital.
+    Player: Hmm, Jane must have left already.
+    Player: Well, then I have nothing to do here.
+    @set streetAvailable=true;questNumber=4
+@endif
+@if questNumber=4
+    @char Player pos:20,30
+    Player: Maybe I can find girls on the street.
+@stop
