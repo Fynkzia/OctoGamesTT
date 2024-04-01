@@ -1,3 +1,4 @@
 @hideAll
+@hideUI QuestLog
 @showUI MapUI
 @stop

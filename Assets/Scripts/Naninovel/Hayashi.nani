@@ -1,4 +1,4 @@
-@back Title
+@back Club
 @if questNumber=2
     @char Player pos:20,30
     Player: Well, I'm lucky. The machine is still there and it even works.
@@ -8,5 +8,6 @@
     Security: Get out if you value your life or should I show you the way?
     Player: Damn, I need to get out of here.
     @set hayashiAvailable=false;gardenAvailable=true;questNumber=3
+    @showUI QuestLog
 @endif
 @stop

@@ -1,4 +1,4 @@
-@back Title
+@back Garden
 @if questNumber=1
     @if miniGame=false
         @char Player pos:20,30
@@ -21,6 +21,7 @@
         Jane: There used to be a machine with it at the Hayashi Club, maybe it's still there. Will you bring it to me then?
         Player: Okay, I'll go then.
         @set hayashiAvailable=true;streetAvailable=false;questNumber=2
+        @showUI QuestLog
         @stop
     @endif
 @endif
@@ -34,8 +35,19 @@
     Player: Hmm, Jane must have left already.
     Player: Well, then I have nothing to do here.
     @set streetAvailable=true;questNumber=4
+    @showUI QuestLog
 @endif
 @if questNumber=4
     @char Player pos:20,30
     Player: Maybe I can find girls on the street.
+@endif
+@if questNumber=5
+    @char Jane pos:70,30
+    @if relationJane>0
+        Jane: Hi! Nice to see you again
+    @else
+        Jane: Eph, you. Want something?
+        Player: No, sorry
+    @endif
+@endif
 @stop

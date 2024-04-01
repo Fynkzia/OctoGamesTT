@@ -23,6 +23,7 @@ public class QuestLogController : MonoBehaviour {
             if (intValue < 0) return;
             if (intValue == questPanelTransform.childCount) {
                 questPanelTransform.GetChild(0).GetChild(0).gameObject.SetActive(true);
+                return;
             }
             if (intValue == 1) {
                 questPanelTransform.GetChild(0).gameObject.SetActive(true);

@@ -1,4 +1,4 @@
-@back Title
+@back Street
 @if questNumber=-1
     @input PlayerName summary:"Choose your name."
     @set questNumber=0
@@ -21,6 +21,7 @@
     Scarlett: Look for her somewhere in Kiyomi Garden. She'll be happy to talk to you.
     Player: Got it, I'll head there.
     @set gardenAvailable=true;questNumber=1
+    @showUI QuestLog
     @stop
 @endif
 @if questNumber=1
@@ -48,18 +49,31 @@
     @stop
 
     # GiveScarlett
-    Scarlett: Thank you. I promise you won't regret your choice.
-    Jane: I thought you treated me better.
+        Scarlett: Thank you. I promise you won't regret your choice.
+        Jane: I thought you treated me better.
+        @set relationScarlet++;questNumber=5
+        @stop
 
     # GiveJane
-    Jane: Thank you. I promise you won't regret your choice.
-    Scarlett: I guess I was wrong about you. You're absolutely foolish.
+        Jane: Thank you. I promise you won't regret your choice.
+        Scarlett: I guess I was wrong about you. You're absolutely foolish.
+        @set relationJane++;questNumber=5
+        @stop
 
     # KeepForYourself
-    Scarlett: I guess I was wrong about you. You're absolutely foolish.
-    Jane: I thought you treated me better.
-
-    @set questNumber=5
-    @stop
+        Scarlett: I guess I was wrong about you. You're absolutely foolish.
+        Jane: I thought you treated me better.
+        @set questNumber=5
+        @stop
 @endif
+@if questNumber=5
+    @char Scarlett pos:70,30
+    @if relationScarlet>0
+        Scarlett: Hi! Nice to see you again
+    @else
+        Scarlett: Eph, you. Want something?
+        Player: No, sorry
+    @endif
+@endif
+
 @stop
