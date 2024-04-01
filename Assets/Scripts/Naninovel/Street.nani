@@ -5,8 +5,8 @@
     @stop
 @endif
 @if questNumber=0
-    @char Player pos:20,30
-    @char Scarlett pos:70,30
+    @char Player pos:30,27
+    @char Scarlett pos:70,27
     Scarlett: Hello! You're {PlayerName}, right?
     Player: Hi. Um, yes..
     @choice "And who are you?"
@@ -25,13 +25,13 @@
     @stop
 @endif
 @if questNumber=1
-    @char Scarlett pos:70,30
+    @char Scarlett pos:70,27
     Scarlett: You can find Jane in Kiyomi Garden
 @endif
 @if questNumber=4
-    @char Player pos:20,30
-    @char Scarlett pos:50,30
-    @char Jane pos:70,30
+    @char Player pos:30,27
+    @char Scarlett pos:57,27
+    @char Jane pos:70,27
     Scarlett: You're just in time. One more minute and you would've witnessed a brutal murder.
     Jane: Of course, my knight is always on time to save his princess from such a witch like you.
     Scarlett: You're more like an annoying buzzing fly, always getting in the way.
@@ -67,7 +67,8 @@
         @stop
 @endif
 @if questNumber=5
-    @char Scarlett pos:70,30
+    @char Player pos:30,27
+    @char Scarlett pos:70,27
     @if relationScarlet>0
         Scarlett: Hi! Nice to see you again
     @else

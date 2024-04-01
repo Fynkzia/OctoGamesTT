@@ -1,6 +1,6 @@
 @back Club
 @if questNumber=2
-    @char Player pos:20,30
+    @char Player pos:30,27
     Player: Well, I'm lucky. The machine is still there and it even works.
     *sound of the machine* br-br-br
     Player: Great, I think I should take a couple more, so there's enough for everyone.
