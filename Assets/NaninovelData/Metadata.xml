@@ -360,6 +360,10 @@
         &lt;Type&gt;UI&lt;/Type&gt;
       &lt;/Resource&gt;
       &lt;Resource&gt;
+        &lt;Path&gt;QuestLog&lt;/Path&gt;
+        &lt;Type&gt;UI&lt;/Type&gt;
+      &lt;/Resource&gt;
+      &lt;Resource&gt;
         &lt;Path&gt;Title&lt;/Path&gt;
         &lt;Type&gt;Scripts&lt;/Type&gt;
       &lt;/Resource&gt;
@@ -373,6 +377,10 @@
       &lt;/Resource&gt;
       &lt;Resource&gt;
         &lt;Path&gt;Hayashi&lt;/Path&gt;
+        &lt;Type&gt;Scripts&lt;/Type&gt;
+      &lt;/Resource&gt;
+      &lt;Resource&gt;
+        &lt;Path&gt;Map&lt;/Path&gt;
         &lt;Type&gt;Scripts&lt;/Type&gt;
       &lt;/Resource&gt;
       &lt;Resource&gt;
@@ -397,7 +405,8 @@
       &lt;string&gt;streetAvailable&lt;/string&gt;
       &lt;string&gt;gardenAvailable&lt;/string&gt;
       &lt;string&gt;hayashiAvailable&lt;/string&gt;
-      &lt;string&gt;isObject&lt;/string&gt;
+      &lt;string&gt;questNumber&lt;/string&gt;
+      &lt;string&gt;miniGame&lt;/string&gt;
     &lt;/Variables&gt;
     &lt;Functions /&gt;
   &lt;/Metadata&gt;
