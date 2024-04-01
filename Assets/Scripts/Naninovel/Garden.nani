@@ -36,6 +36,7 @@
     Player: Well, then I have nothing to do here.
     @set streetAvailable=true;questNumber=4
     @showUI QuestLog
+    @stop
 @endif
 @if questNumber=4
     @char Player pos:30,27

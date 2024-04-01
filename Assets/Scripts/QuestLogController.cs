@@ -20,7 +20,7 @@ public class QuestLogController : MonoBehaviour {
     private void HandleVariableUpdated(CustomVariableUpdatedArgs args) {
         if (!args.Name.EqualsFastIgnoreCase(CustomVariableName)) return;
         if (!string.IsNullOrEmpty(args.Value) && ParseUtils.TryInvariantInt(args.Value, out var intValue)) {
-            if (intValue < 0) return;
+            if (intValue <= 0) return;
             if (intValue == 1) {
                 questPanelTransform.GetChild(0).gameObject.SetActive(true);
             }
