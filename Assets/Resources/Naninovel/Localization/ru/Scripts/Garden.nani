@@ -1,0 +1,77 @@
+; English <en> to Russian <ru> localization document for `Garden` naninovel script
+
+# cacb8e53
+;         Player: Good evening. My name is {PlayerName}. You're Jane, right?
+        Player: Добрый вечер. Меня зовут {PlayerName}. Ты ведь Джэйн?
+
+# 2654b748
+;         Player: I'm looking for Neurosync. I was told you might have useful information.
+        Player: Я ищу Нейросинк. Как мне сказали ты можете обладать полезной информацией.
+
+# 2a6eb81e
+;         Jane: Oh, hi there. Well, it's hard to refuse such a cutie. Just that I need it too. 
+        Jane: Ой,приветики. Ну такому милашке сложно отказать. Вот только он мне тоже нужен. 
+
+# b835b5a1
+;         Jane: You know, it's pretty lonely here by myself. Maybe you'll play with me, and then I'll tell you everything?
+        Jane: Знаешь, мне довольно одиноко тут самой. Может ты поиграешь со мной, а потом я тебе все расскажу?
+
+# 5282e5de
+;         Player: Looks like I don't have a choice
+        Player: Похоже у меня не выбора.
+
+# 487d1edf
+;         Jane: Wow, you're so clever. All girls like such men.
+        Jane: Вау, ты такой умный. Такие мужчины, нравятся всем девушкам.
+
+# defe31f4
+;         Player: Yeah, thanks.
+        Player: Да, спасибо.
+
+# 9b3008cb
+;         Jane: Hehe, it's thanks to you for spending time with me.
+        Jane: Хи,хи, это тебе спасибо, что проводишь со мной время. 
+
+# d8c6fb27
+;         Jane: Right, I almost forgot. You want to find Neurosync, right?
+        Jane: Точно, чуть не забыла. Ты же Нейросинк найти хочешь?
+
+# a8d2bc95
+;         Jane: There used to be a machine with it at the Hayashi Club, maybe it's still there. Will you bring it to me then?
+        Jane: В клубе Хаяши когда-то был автомат с ним, может он там все еще есть. Принесешь тогда и мне?
+
+# 9e6df8c
+;         Player: Okay, I'll go then.
+        Player: Хорошо, я тогда пойду.
+
+# 6f21ea0a
+;     Jane: You should go to Hayashi club, sweety.
+    Jane: Тебе стоит пойти в клуб Хаяши, сладкий.
+
+# 29198801
+;     Player: Phew, just made it. A little more and I could have woken up only in the hospital.
+    Player: Фух, еле успел. Еще немного и мог уже только в больнице очнуться.
+
+# 8a8f79f1
+;     Player: Hmm, Jane must have left already.
+    Player: Хм, Джейн видимо ушла уже. 
+
+# 465b3565
+;     Player: Well, then I have nothing to do here.
+    Player: Что ж тогда тут мне делать нечего.
+
+# 291a3937
+;     Player: Maybe I can find girls on the street.
+    Player: Может я смогу найти девушек на улице
+
+# 5806ad4d
+;         Jane: Hi! Nice to see you again
+        Jane: Привет! Рада видеть тебя.
+
+# f26637ae
+;         Jane: Eph, you. Want something?
+        Jane: А, ты. Хотел что-то?
+
+# 7a2543ac
+;         Player: No, sorry
+        Player: Нет, извини

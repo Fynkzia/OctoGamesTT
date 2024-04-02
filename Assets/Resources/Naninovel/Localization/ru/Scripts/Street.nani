@@ -1,0 +1,149 @@
+; English <en> to Russian <ru> localization document for `Street` naninovel script
+
+# f4c8a666
+;     @input PlayerName summary:"Choose your name."
+    @input PlayerName summary:"Введите имя."
+
+# a7e98a26
+;     Scarlett: Hello! You're {PlayerName}, right?
+    Scarlett: Привет! Ты ведь {PlayerName}?
+
+# 41789185
+;     Player: Hi. Um, yes..
+    Player: Привет. Эм, да..
+
+# dc305ef9
+;     @choice "And who are you?"
+    @choice "А ты кто?"
+
+# 9e0257d3
+;     @choice "How do you know me?"
+    @choice "Откуда ты меня знаешь?"
+
+# b53f8ca0
+;     @choice "Are you a fan or something?"
+    @choice "Хотела что-то или так фанатка?"
+
+# ba00ca1d
+;     Scarlett: I'm Scarlett. You know, I'm looking for something quite important, and I think you, being a well-connected person, could help me.
+    Scarlett: Я Скарлетт. Знаешь, я ищу что-то довольно важное, и мне кажется, что ты, как человек со связями, можешь мне помочь.
+
+# 9babf3bb
+;     Scarlett: Don't think you'll get anything in return. I just decided that you might be useful to me.
+    Scarlett: Не думай, что получишь что-то взамен.Просто, я решила,что ты можешь оказаться мне полезным. 
+
+# a0ea309b
+;     Scarlett: So, can you help me or not?
+    Scarlett: Итак, можешь ли ты мне помочь или нет?
+
+# 922c2962
+;     Player: Alright. And what are you looking for?
+    Player: Ладно. И что ты ищешь?
+
+# c48d3a32
+;     Scarlett: Neurosync. I think Jane knows where to get it, but I can't stand her.
+    Scarlett: Нейросинк. Думаю, Джэйн знает где его достать, но я её терпеть не могу. 
+
+# 37904f7f
+;     Scarlett: Look for her somewhere in Kiyomi Garden. She'll be happy to talk to you.
+    Scarlett: Поищи её где-то в Киёми Саду.С тобой она будет рада поговорить.
+
+# e458d71e
+;     Player: Got it, I'll head there.
+    Player: Понял, отправлюсь .
+
+# 1a68755b
+;     Scarlett: You can find Jane in Kiyomi Garden
+    Scarlett: Ты можешь найти Джэйн в Киёми Саду
+
+# c1f55896
+;     Scarlett: You're just in time. One more minute and you would've witnessed a brutal murder.
+    Scarlett: Ты как раз во время. Еще минута и ты стал бы свидетелем жёсткого убийства.
+
+# 61382329
+;     Jane: Of course, my knight is always on time to save his princess from such a witch like you.
+    Jane: Конечно, мой рыцарь всегда вовремя, что б спасти свою принцессу от такой ведьмы как ты.
+
+# 7750803f
+;     Scarlett: You're more like an annoying buzzing fly, always getting in the way.
+    Scarlett: Ты скорее надоедливо жужжащая муха, только мешаешь вечно.
+
+# 297b420e
+;     Scarlett: Hey, {PlayerName}, did you manage to get the Neurosync?
+    Scarlett: Эй, {PlayerName}, ты кстати достал Нейросинк?
+
+# fd553bff
+;     Player: Yes, but it almost cost me my life.
+    Player: Да,но он мне чуть жизни не стоил.
+
+# cac9dbb8
+;     Scarlett: Pfft, are you putting on airs just to earn a reward?
+    Scarlett: Пф, это ты так себе цену набиваешь, что б награду заслужить? 
+
+# 26be3a72
+;     Scarlett: Well, give it to me and I'll think about it.
+    Scarlett: Что ж отдай его мне и я подумаю над этим.
+
+# 7fe0023f
+;     Jane: Hey, I'm still here. And I'm the one who said where to find it, and he said he'll bring me some too.
+    Jane: Эй, я еще здесь. И это я сказала, где найти, и он сказал, что принесет мне тоже.
+
+# d360dadb
+;     Jane: You grabbed two capsules, right?
+    Jane: Ты же две капсулы забрал?
+
+# f51d50f2
+;     Player: No, just one, barely managed to.
+    Player: Нет, только одну еле успел.
+
+# 941d6e77
+;     Jane: Hmm, well, I think you shouldn't have any doubts about who to give it to.
+    Jane: Хм, ну я думаю у тебя не должно быть сомнений кому следует отдать.
+
+# fc0399b6
+;     @choice "Give it to Scarlett" goto:.GiveScarlett
+    @choice "Отдать Скарлетт" goto:.GiveScarlett
+
+# 90da3dce
+;     @choice "Give it to Jane" goto:.GiveJane
+    @choice "Отдать Джэйн" goto:.GiveJane
+
+# bde4a490
+;     @choice "Keep it for yourself" goto:.KeepForYourself
+    @choice "Оставить себе" goto:.KeepForYourself
+
+# d0a04a35
+;         Scarlett: Thank you. I promise you won't regret your choice.
+        Scarlett: Спасибо. Я обещаю, что ты не пожалеешь о своем выборе.
+
+# 195f88b1
+;         Jane: I thought you treated me better.
+        Jane: Мне казалось, что ты относишься ко мне лучше.
+
+# 96f9d32c
+;         Jane: Thank you. I promise you won't regret your choice.
+        Jane: Спасибо. Я обещаю, что ты не пожалеешь о своем выборе.
+
+# fa3024ff
+;         Scarlett: I guess I was wrong about you. You're absolutely foolish.
+        Scarlett: Видимо, я ошибалась в тебе. Ты абсолютно глуп.
+
+# fa3024ff
+;         Scarlett: I guess I was wrong about you. You're absolutely foolish.
+        Scarlett: Видимо, я ошибалась в тебе. Ты абсолютно глуп.
+
+# 195f88b1
+;         Jane: I thought you treated me better.
+        Jane: Мне казалось, что ты относишься ко мне лучше.
+
+# f3d60a66
+;         Scarlett: Hi! Nice to see you again
+        Scarlett: Привет! Рада видеть тебя.
+
+# db7d81a3
+;         Scarlett: Eph, you. Want something?
+        Scarlett: А, ты. Хотел что-то?
+
+# 7a2543ac
+;         Player: No, sorry
+        Player: Нет, извини

@@ -1,0 +1,8 @@
+MapUI.Club: CLUB
+MapUI.Garden: GARDEN
+MapUI.Street: STREET
+QuestLog.FirstQuest: Talk to Jane
+QuestLog.FourthQuest: Find girls
+QuestLog.MainQuest: Find Neurosync
+QuestLog.SecondQuest: Go to Hayashi club
+QuestLog.ThirdQuest: Go back to Jane

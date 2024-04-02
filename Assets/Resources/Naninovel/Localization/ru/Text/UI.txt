@@ -1,0 +1,10 @@
+; English <en> to Russian <ru> localization document for `UI` managed text document
+
+MapUI.Club: КЛУБ
+MapUI.Garden: САД
+MapUI.Street: УЛИЦА
+QuestLog.FirstQuest: Поговорить с Джэйн
+QuestLog.FourthQuest: Найти девушек
+QuestLog.MainQuest: Найти Нейросинк
+QuestLog.SecondQuest: Пойти в Хаяши клуб
+QuestLog.ThirdQuest: Вернуться к Джэйн

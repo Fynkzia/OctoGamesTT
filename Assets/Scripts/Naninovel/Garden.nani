@@ -27,7 +27,7 @@
 @endif
 @if questNumber=2
     @char Jane pos:70,27
-    Jane: You should go to Hayashi club, sweety
+    Jane: You should go to Hayashi club, sweety.
 @endif
 @if questNumber=3
     @char Player pos:30,27

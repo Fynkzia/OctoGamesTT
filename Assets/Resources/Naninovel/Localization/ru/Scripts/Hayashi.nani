@@ -1,0 +1,25 @@
+; English <en> to Russian <ru> localization document for `Hayashi` naninovel script
+
+# e6bcfc4b
+;     Player: Well, I'm lucky. The machine is still there and it even works.
+    Player: Что ж, мне везет. Автомат все-таки есть и даже работает.
+
+# 73f1f90b
+;     *sound of the machine* br-br-br
+    *звук автомата* бр-бр-бр
+
+# 8e440356
+;     Player: Great, I think I should take a couple more, so there's enough for everyone.
+    Player: Отлично, думаю следует взять еще пару штук, что б хватило на всех
+
+# d55ea360
+;     Security: Hey, who are you? This is a restricted area, only for members of the Hanami community.
+    Security: Эй, ты кто такой? Это закрытая территория, только для членов сообщества Ханами.
+
+# d3979532
+;     Security: Get out if you value your life or should I show you the way?
+    Security: Пошёл вон, если жизнь дорога или мне показать дорогу?
+
+# a321d23a
+;     Player: Damn, I need to get out of here.
+    Player: Черт, надо убираться от сюда.
